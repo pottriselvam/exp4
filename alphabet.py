@@ -1,5 +1,6 @@
 h=input()
-if((c>='a' and c<='z') or (c>='A' and c<='Z')):
+g='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+if h in g:
  print("Alphabet")
 else:
  print("No")
